@@ -28,5 +28,5 @@ body {
     height: 34px;
     background-color: #9ce087; 
     border-radius: 50%;
-    display: flex;
+    margin-top: 4px;
   }
