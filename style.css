@@ -16,9 +16,19 @@ body {
     align-items: center;
   }
 
-  .inner-circle {
-    width: 94px;
-    height: 120px;
+  .inner-rectangle {
+    width: 19px;
+    height: 90px;
     background-color: white; 
    
+  }
+
+  .small-circle{
+    width: 150px;
+    height: 150px;
+    background-color: #0097ec; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
