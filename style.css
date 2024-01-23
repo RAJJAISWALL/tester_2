@@ -18,6 +18,8 @@ body {
     width: 19px;
     height: 90px;
     background-color: white; 
+    margin-top: 62px;
+    margin-left: 64px;
    
   }
 
@@ -27,6 +29,4 @@ body {
     background-color: #9ce087; 
     border-radius: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
