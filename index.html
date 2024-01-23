@@ -3,28 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Circle Example</title>
+  <title>SBI-like Circle Example</title>
   <style>
-      body {
+    /* Apply styles to create an SBI-like circle */
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh; 
-      margin: 0; 
+      height: 100vh;
+      margin: 0;
     }
 
-    .circle {
-      width: 100px;
-      height: 100px;
-      background-color: blue; 
-      border-radius: 50%; 
+    .outer-circle {
+      width: 150px;
+      height: 150px;
+      background-color: #0097ec; /* SBI blue color */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .inner-circle {
+      width: 120px;
+      height: 120px;
+      background-color: white; /* Inner circle color */
+      border-radius: 50%;
     }
   </style>
 </head>
 <body>
 
  
-  <div class="circle"></div>
+  <div class="outer-circle">
+    <div class="inner-circle"></div>
+  </div>
 
 </body>
 </html>
