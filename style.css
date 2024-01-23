@@ -12,8 +12,6 @@ body {
     background-color: #0097ec; 
     border-radius: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .inner-rectangle {
@@ -24,8 +22,8 @@ body {
   }
 
   .small-circle{
-    width: 150px;
-    height: 150px;
+    width: 32px;
+    height: 34px;
     background-color: #9ce087; 
     border-radius: 50%;
     display: flex;
