@@ -24,9 +24,10 @@ body {
   }
 
   .small-circle{
-    width: 32px;
-    height: 34px;
-    background-color: #9ce087; 
+    width: 33px;
+    height: 36px;
+    background-color: #fdfffd; 
     border-radius: 50%;
-    margin-top: 4px;
+    margin-top: 44px;
+    margin-left: -26px;
   }
