@@ -48,6 +48,6 @@
 
   }
 
-  .container img :hover{
+  .container img:hover {
     width: 100%;
-  }
+}
