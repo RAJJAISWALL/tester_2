@@ -55,7 +55,7 @@ body {
 }
 
 .outer_container {
-  width: 100%;
+  width: 20%;
   padding: 10px; 
   border: 2px solid rgb(0, 86, 199); 
 }
