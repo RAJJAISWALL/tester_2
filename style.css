@@ -38,3 +38,16 @@
     display: flex;
     gap: 5px;
   }
+
+  .container img{
+    width: 10%;
+    height: 100%;
+    object-fit:  cover;
+    border-radius: 10px;
+    border: 2px saddlebrown;
+
+  }
+
+  .container img :hover{
+    width: 100%;
+  }
