@@ -53,3 +53,7 @@ body {
   .container img:hover {
     width: 100%;
 }
+
+.outer_container{
+  width: 100%;
+}
