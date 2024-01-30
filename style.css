@@ -45,6 +45,8 @@
     object-fit:  cover;
     border-radius: 10px;
     border: 2px saddlebrown;
+    transition: all ease 0.3s;
+    cursor: pointer;
 
   }
 
