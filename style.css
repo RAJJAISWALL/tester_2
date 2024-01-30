@@ -6,7 +6,7 @@ body {
     margin: 0;
   }
 
-.outer-circle {
+/* .outer-circle {
     width: 150px;
     height: 150px;
     background-color: #0097ec; 
@@ -30,4 +30,11 @@ body {
     border-radius: 50%;
     margin-top: 44px;
     margin-left: -26px;
+  } */
+
+  .container{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
   }
