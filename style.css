@@ -32,28 +32,30 @@ body {
     margin-left: -26px;
   } */
 
-  .outer_container {
-    width: 100%;
-    padding: 10px; 
-    border: 2px solid saddlebrown; 
-  }
-  
-  .container {
+  .container{
+    width: 30%;
+    height: 200px;
     display: flex;
     gap: 5px;
   }
-  
-  .container img {
+
+  .container img{
     width: 10%;
     height: 100%;
-    object-fit: cover;
+    object-fit:  cover;
     border-radius: 10px;
-    border: 2px solid saddlebrown;
+    border: 2px saddlebrown;
     transition: all ease 0.3s;
     cursor: pointer;
+
   }
-  
+
   .container img:hover {
     width: 100%;
-  }
-  
+}
+
+.outer_container {
+  width: 100%;
+  padding: 10px; 
+  border: 2px solid rgb(12, 56, 114); 
+}
